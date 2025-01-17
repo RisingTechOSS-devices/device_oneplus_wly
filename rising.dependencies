@@ -1,0 +1,98 @@
+[
+    {
+        "remote": "devices",
+        "repository": "device_oneplus_sm8450-common",
+        "target_path": "device/oneplus/sm8450-common",
+        "revision": "fifteen"
+    },
+    {
+        "remote": "devices",
+        "repository": "kernel_oneplus_sm8450",
+        "target_path": "kernel/oneplus/sm8450",
+        "revision": "fifteen"
+    },
+    {
+        "remote": "devices",
+        "repository": "kernel_oneplus_sm8450-modules",
+        "target_path": "kernel/oneplus/sm8450-modules",
+        "revision": "fifteen"
+    },
+    {
+        "remote": "devices",
+        "repository": "kernel_oneplus_sm8450-devicetrees",
+        "target_path": "kernel/oneplus/sm8450-devicetrees",
+        "revision": "fifteen"
+    },
+    {
+        "remote": "devices",
+        "repository": "vendor_oneplus_wly",
+        "target_path": "vendor/oneplus/wly",
+        "revision": "fifteen"
+    },
+    {
+        "remote": "devices",
+        "repository": "vendor_oneplus_sm8450-common",
+        "target_path": "vendor/oneplus/sm8450-common",
+        "revision": "fifteen"
+    },
+    {
+        "remote": "rising",
+        "repository": "hardware_oplus",
+        "target_path": "hardware/oplus",
+        "revision": "fifteen"
+    },
+    {
+        "remote": "rising",
+        "repository": "vendor_oplus_camera",
+        "target_path": "vendor/oplus/camera",
+        "revision": "fifteen"
+    },
+    {
+        "remote": "devices",
+        "repository": "device_qcom_common",
+        "target_path": "device/qcom/common",
+        "revision": "fifteen"
+    },
+    {
+        "remote": "devices",
+        "repository": "vendor_qcom_common",
+        "target_path": "vendor/qcom/common",
+        "revision": "fifteen"
+    },
+    {
+        "remote": "rising",
+        "repository": "hardware_qcom-caf_sm8450_audio_agm",
+        "target_path": "hardware/qcom-caf/sm8450/audio/agm",
+        "revision": "fifteen",
+        "override": {
+            "repo": "LineageOS/android_vendor_qcom_opensource_agm",
+            "path": "hardware/qcom-caf/sm8450/audio/agm"
+        }
+    },
+    {
+        "remote": "rising",
+        "repository": "hardware_qcom-caf_sm8450_display",
+        "target_path": "hardware/qcom-caf/sm8450/display",
+        "revision": "fifteen-oplus",
+        "override": {
+            "repo": "LineageOS/android_hardware_qcom_display",
+            "path": "hardware/qcom-caf/sm8450/display"
+        }
+    },
+    {
+        "remote": "rising",
+        "repository": "vendor_qcom_opensource_arpal-lx",
+        "target_path": "hardware/qcom-caf/sm8450/audio/pal",
+        "revision": "fifteen-oplus",
+        "override": {
+            "repo": "LineageOS/android_vendor_qcom_opensource_arpal-lx",
+            "path": "hardware/qcom-caf/sm8450/audio/pal"
+        }
+    },
+    {
+        "remote": "rising",
+        "repository": "prebuilts_clang_host_linux-x86_clang-r487747c",
+        "target_path": "prebuilts/clang/host/linux-x86/clang-r487747c",
+        "revision": "fifteen"
+    }
+]
